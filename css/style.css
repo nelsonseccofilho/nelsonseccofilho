@@ -8,11 +8,11 @@
 
 /* Table of Content
 ==================================================
-	- Google fonts & font family -
-	- General -
+    - Google fonts & font family -
+    - General -
     - typography -
     - Preloader -
-	- Header -
+    - Header -
     - box intro section -
     - Portfoilo section -
     - Footer -
@@ -76,7 +76,7 @@ a {
 }
 
 .color {
-    color: #ffbf00;
+    color: #e6ad03;
     font-size: 11px;
 }
 
@@ -95,14 +95,14 @@ h3 {
 }
 
 h5 {
-    color: #ffbf00;
+    color: #91c526;
 }
 
 p > a{
-    color: #ffbf00;
+    color: #e6ad03;
 }
 p > a:hover{
-    color: #e6ad03;
+    color: #7ca920;
     text-decoration: underline;
 }
 
@@ -144,7 +144,7 @@ p > a:hover{
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #ffbf00;
+    background-color: #e6ad03;
     opacity: 0.6;
     position: absolute;
     top: 0;
@@ -228,7 +228,7 @@ p > a:hover{
 }
 
 .box-header.menu-is-open {
-    background-color: rgba(255, 255, 255, 0.96);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .box-logo {
@@ -246,7 +246,7 @@ p > a:hover{
 }
 
 .box-primary-nav-trigger .box-menu-text {
-    color: #393939;
+    color: #0e0408;
     text-transform: uppercase;
     font-weight: 700;
     display: none;
@@ -343,7 +343,7 @@ p > a:hover{
     top: 0;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.96);
+    background: #fff;
     z-index: 2;
     text-align: center;
     padding: 50px 0;
@@ -375,12 +375,13 @@ p > a:hover{
 .box-primary-nav a {
     display: inline-block;
     padding: .4em 1em;
-    border-radius: 0.25em;
+    /* border-radius: 0.25em; */
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
-    color: #fff;
+    color: #030204;
     text-decoration: none;
     font-weight: bold;
+    border-bottom: solid 1px #bbcf88;
 }
 .box-primary-nav a:focus {
     outline: none;
@@ -392,7 +393,7 @@ p > a:hover{
 }
 
 .box-primary-nav .box-label {
-    color: #ffbf00;
+    color: #E5AD05;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 17px;
@@ -446,7 +447,7 @@ p > a:hover{
 }
 
 b i:last-child {
-    color: #ffbf00 !important;
+    color: #e6ad03 !important;
 }
 
 .box-intro h5 {
@@ -719,7 +720,7 @@ b i:last-child {
 
 .portfolio .categories-grid .categories ul li a.active {
     margin-left: 0;
-    background-color: #ffbf00;
+    background-color: #91c526;
     padding: 0px 20px;
     color: white;
     border-radius: 25px;
@@ -776,7 +777,7 @@ b i:last-child {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #ffbf00;
+    background-color: #91c526;
     padding: 5px 20px;
     border-radius: 25px;
     color: #333;
@@ -886,7 +887,7 @@ footer img {
 
 .no-touch .cd-top:hover,
 .no-touch .cd-top:focus {
-    background-color: #ffbf00;
+    background-color: #91c526;
     opacity: 1;
     color: #fff;
 }
@@ -898,8 +899,8 @@ footer img {
 .top-bar {
     color: #333;
     padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.png);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -910,7 +911,7 @@ footer img {
     font-size: 60px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #999;
+    color: #e5ad05;
     line-height: 50px;
 }
 
@@ -918,7 +919,7 @@ footer img {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 500;
-    color: #777;
+    color: #181818;
 }
 
 .top-bar p a {
@@ -1048,7 +1049,7 @@ footer img {
 
 .input-contact > span.active,
 .textarea-contact > span.active {
-    color: #ffbf00;
+    color: #91c526;
     font-size: 10px;
     top: 0px;
     left: 5px;
@@ -1069,7 +1070,7 @@ textarea:focus {
     height: 30px;
     width: 30px;
     display: inline-block;
-    background: #ffbf00;
+    background: #91c526;
     text-align: center;
     line-height: 33px;
     margin-right: 10px;
@@ -1083,7 +1084,7 @@ textarea:focus {
 }
 
 .btn-box {
-    background: #ffbf00;
+    background: #91c526;
     padding: 10px 50px;
     border-radius: 0;
     color: #fff;
@@ -1110,7 +1111,7 @@ textarea:focus {
 
 .cat-ul li i {
     margin-right: 10px;
-    color: #ffbf00;
+    color: #91c526;
 }
 
 
