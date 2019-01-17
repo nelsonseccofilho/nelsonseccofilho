@@ -1,0 +1,20 @@
+@import 'neat-helpers';
+
+// Change the grid settings
+$column: 60px;
+$gutter: 10px;
+$double-gutter: 2 * $gutter;
+
+$breakpoint-tablet: 640px;
+$breakpoint-desktop: 960px;
+$breakpoint-large-desktop: 1366px;
+
+$content-max-width: 100%;
+
+// Breakpoints definitions - MOBILE FIRST!
+// Avoid using the mobile media-query, it should be the default/root styling
+$mobile: new-breakpoint(max-width $breakpoint-tablet - 1px 12);
+$tablet: new-breakpoint(min-width $breakpoint-tablet 12);
+$desktop: new-breakpoint(min-width $breakpoint-desktop 12);
+$large-desktop: new-breakpoint(min-width $breakpoint-large-desktop 12);
+$small-vertical: new-breakpoint(max-height 800px);

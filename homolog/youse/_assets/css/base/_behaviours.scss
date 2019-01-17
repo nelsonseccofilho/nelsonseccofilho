@@ -1,0 +1,14 @@
+.hide--mobile {
+  display: none;
+  @include media($tablet) { display: inline-block; }
+}
+
+.hide--tablet {
+  @include media($tablet) { display: none; }
+
+  @include media($desktop) { display: inline-block; }
+}
+
+.hide--desktop {
+  @include media($desktop) { display: none; }
+}

@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Asap');
+.asapregular {
+    font-family: 'Asap', sans-serif;
+}
+
+.asapbold {
+    font-family: 'Asap', sans-serif;
+    font-weight: bold !important;
+}
+
+
+/* txt--align */
+
+.txt--align__left {
+    text-align: left;
+}
+
+.txt--align__center {
+    text-align: center;
+}
+
+.txt--align__right {
+    text-align: right;
+}
+
+
+/* txt__color */
+
+.txt--primary__color {
+    color: #ffffff;
+}
+
+.txt--secundary__color {
+    color: #464646;
+}
+
+
+/* letter-spacing */
+
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: 13px;
+}
+
+
+/* sections font size */
+
+body {
+    font-size: 16px;
+}
+
+.section-1 h1,
+.section-1 h2 {
+    letter-spacing: 0;
+    display: block;
+    width: 100%;
+    top: -28px;
+}
+
+.section-1 h1 {
+    font-size: 2.125em;
+    margin: 0;
+}
+
+.section-1 h2 {
+    font-size: 1.125em;
+    margin: 0;
+}
+
+.section-1 .play--section span {
+    font-size: 0.875em;
+    top: -35px;
+}
+
+.section-2 h3 {
+    font-size: 4.063em;
+    margin: -31px 0 33px 7px;
+}
+
+.section-3 h3 {
+    font-size: 4.063em;
+    margin: 0 0 34px 0;
+    position: relative;
+    top: 9px;
+    left: -50px;
+}
+
+.section-4 h3 {
+    font-size: 4.063em;
+    margin: 0;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+.section-5 h3 {
+    font-size: 4.063em;
+    margin: 0 0 34px 0;
+    position: relative;
+    top: 9px;
+    left: -50px;
+}
+
+.section-6 h3 {
+    font-size: 1.688em;
+    padding: 0;
+    letter-spacing: normal;
+    margin: 0;
+}
+
+.section-2 p {
+    font-size: 1.250em;
+    margin-left: 11px;
+}
+
+.section-3 p {
+    font-size: 1.500em;
+    margin-left: 17px;
+    position: relative;
+    top: -18px;
+    left: -64px;
+    line-height: 30px;
+}
+
+.section-4 p {
+    margin-left: 17px;
+    font-size: 1.500em;
+    position: relative;
+    left: -7px;
+    top: -12px;
+    line-height: 30px;
+}
+
+.section-5 p {
+    font-size: 1.500em;
+    margin-left: 17px;
+    position: relative;
+    top: -18px;
+    left: -64px;
+    line-height: 30px;
+}
+
+.section-6 p {
+    font-size: 1em;
+    margin: 0;
+}
+
+
+/* font position */
+
+.section-1 h1 {}
+
+.section-1 h2 {}
+
+.section-1 img {
+    position: relative;
+    top: -41px;
+}
+
+
+/* INNER */
+
+.txt--content--inner h3 {
+    font-size: 1.625em;
+    margin-top: 0;
+    position: relative;
+    top: -33px;
+    letter-spacing: 6px;
+}
+
+.txt--content--inner p {
+    font-size: 1em;
+    position: relative;
+    top: -50px;
+    padding: 0;
+    margin: 0;
+    width: 360px;
+    letter-spacing: 0;
+}
+
+.section-3 .txt--content--inner h3 {
+    font-size: 1.625em;
+    margin-top: 0;
+    position: relative;
+    top: -33px;
+    left: 17px;
+}
+
+.section-3 .txt--content--inner p {
+    top: -49px;
+    left: 15px;
+    line-height: 19px;
+}
+
+.section-4 .txt--content--inner h3 {
+    font-size: 1.625em;
+    margin-top: 0;
+    position: relative;
+    top: -37px;
+    left: 18px;
+}
+
+.section-4 .txt--content--inner p {
+    top: -12px;
+    left: 4px;
+    line-height: 19px;
+}
+
+.section-5 .txt--content--inner h3 {
+    font-size: 1.625em;
+    margin-top: 0;
+    position: relative;
+    top: -33px;
+    left: 17px;
+}
+
+.section-5 .txt--content--inner p {
+    top: -49px;
+    left: 15px;
+    line-height: 19px;
+}
+
+.nextProducts h4 {
+    font-size: 1.875em;
+    margin: 0;
+    letter-spacing: normal;
+}
+
+.nextProducts p {
+    font-size: 0.938em;
+    position: relative;
+    top: 11px;
+    left: 3px;
+    line-height: 19px;
+}

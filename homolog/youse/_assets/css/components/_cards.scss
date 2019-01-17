@@ -1,0 +1,45 @@
+.card {
+  padding: 1em;
+  text-align: center;
+}
+
+.card__title {
+  @include title-3;
+
+  margin: 12px auto;
+  min-height: 48px;
+  text-align: center;
+}
+
+.card__description {
+  @include text-3;
+  text-align: center;
+}
+
+.card__image {
+  margin: 12px auto 24px;
+  max-width: 240px;
+
+  &.card__image--small {
+    margin-top: 12px;
+    max-width: 200px;
+
+    @include media($tablet) {
+      margin-top: 77px;
+    }
+  }
+
+  &.card__image--large {
+    margin-top: 12px;
+    min-width: 184px;
+    max-width: 224px;
+
+    @include media($tablet) {
+      max-width: 280px;
+    }
+
+    @include media($desktop) {
+      max-width: 280px;
+    }
+  }
+}

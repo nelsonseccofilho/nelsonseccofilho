@@ -1,0 +1,110 @@
+<div class="container__content container__content--large container__content--with-shadow">
+  <section class="hero-banner">
+    <div class="hero-banner__background-wrapper hide--mobile">
+      <img src="{{ site.url }}/assets/images/life/icon-life-outubro-rosa.svg" class="hero-banner__background-icon">
+      <img src="{{ site.url }}{{ page.content_hero_path }}" class="hero-banner__background-image hero-banner__background-image--life-{{page.hero_name}}">
+    </div>
+
+    <div class="hero-banner__background-wrapper hide--tablet hide--desktop">
+      <img src="{{ site.url }}{{ page.content_hero_mobile_path }}" class="hero-banner__background-image hero-banner__background-image--life-{{page.hero_name}}">
+    </div>
+
+    <div class="hero-banner__content">
+      <h2 class="hero-banner__title">{{ page.content_title }}</h2>
+      <p class="hero-banner__description">{{ page.content_headline }}</p>
+      <a data-cta="true" data-analytics-cta="{{ page.cta1 }}" data-product="{{ page.product_id }}" href="{{ site.helpers.life_new_order_path }}" class="button button--primary button--with-shadow button--large">
+        <span class="txt--strong txt--no-break">fazer minha cotação</span>
+        <br><span class="button--large__secondary-label"><em class="txt--strong">é grátis</em> e leva só <em class="txt--strong">5 minutinhos</em></span>
+      </a>
+    </div>
+  </section>
+
+  <div class="container__content {{ page.content_class }}">
+    <section class="insurance-benefits">      
+      <div class="assistance-cards-collection__{{ page.content_class }}">
+        <article class="assistance-cards-collection__item">
+          <div class="card">
+            <h3 class="insurance-benefits__title">A Youse apoia a <em class="txt--strong">prevenção ao câncer de mama</em>. Mais até do que isso, a gente encoraja você a levar uma vida mais ousada.</h3>
+          </div>
+        </article>
+        {% for laco in page.lacos %}
+        <article class="assistance-cards-collection__item">
+          <div class="card">
+            {% if laco.is_laco == true %}
+              <img src="{{ site.url }}{{ laco.image_laco }}" class="card__image--small">
+            {% endif %}
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+
+      <div class="assistance-cards-collection">
+        {% for assistance in page.assistances %}
+          <article class="assistance-cards-collection__item">
+            <div class="card">
+              {% if assistance.is_large == true %}
+                {% if assistance.is_hide == false %}
+                  <img src="{{ site.url }}{{ assistance.image_path }}" class="card__image card__image--large">
+                {% else %}
+                {% endif %}
+              {% else %}                
+                {% if assistance.is_hide == false %}
+                  <img src="{{ site.url }}{{ assistance.image_path }}" class="card__image card__image--small">
+                {% else %}
+                {% endif %}                
+              {% endif %}
+              <h4 class="card__title">{{ assistance.title }}</h4>
+              <p class="card__description">{{ assistance.description }}</p>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+      <a data-cta="true" data-analytics-cta="{{ page.cta3 }}" data-product="{{ page.product_id }}"  href="{{ site.helpers.life_new_order_path }}" class="button button--primary">Contrate Online</a>
+    </section>
+  </div>
+
+  <section class="hire-now">
+    <p class="hire-now__title">
+      Leve uma vida mais saudável, ousada e segura. Coberturas e Assistências Youse podem te ajudar a conquistar isso.      
+    </p>
+    <p class="hire-now__title">      
+      <em class="txt--strong">Seguro de Vida: um sentido especial em outubro,  mas vantagens o ano inteiro.</em>
+    </p>    
+    <a data-cta="true" data-analytics-cta="{{ page.cta2 }}" data-product="{{ page.product_id }}"  href="{{ site.helpers.life_new_order_path }}" class="button button--primary">Quero conhecer</a>
+  </section>
+
+  <div class="container__content">
+    <section class="reasons-to-hire">
+      <p class="reasons-to-hire__title">
+        <em class="txt--strong">Juntos por uma vida melhor.</em>
+      </p>
+      <p class="reasons-to-hire__description">Nosso objetivo é ir muito além do combate ao câncer de mama. Queremos que você se sinta segura e tenha consciência de que estar sempre bem depende de você.</p>
+
+      <ul class="cards-collection">
+        <li class="cards-collection__item">
+          <div class="card">
+            <img src="{{ site.url }}/assets/images/icon-digital-experience-outubro-rosa.svg" class="card__image">
+            <h5 class="card__title">Autoexame na prática</h5>
+            <p class="card__description">Um ato simples, que faz a diferença. Faça o autoexame sempre – a melhor forma de garantir que tudo fique numa boa.</p>
+          </div>
+        </li>
+        <li class="cards-collection__item">
+          <div class="card">
+            <img src="{{ site.url }}/assets/images/icon-personal-outubro-rosa.svg" class="card__image">
+            <h5 class="card__title">De olho na saúde, sempre</h5>
+            <p class="card__description">Pra se sentir segura e aproveitar o que a vida tem de melhor, saúde  é fundamental. Como tá a sua?</p>
+          </div>
+        </li>
+        <li class="cards-collection__item">
+          <div class="card">
+            <img src="{{ site.url }}/assets/images/icon-direct-with-you-outubro-rosa.svg" class="card__image">
+            <h5 class="card__title">Você no comando da <br> própria vida</h5>
+            <p class="card__description">A gente te incentiva a ousar, com seguros que fazem a diferença. Mas anote aí: só você tem o controle sobre sua vida.</p>
+          </div>
+        </li>
+      </ul>
+
+      <a data-cta="true" data-analytics-cta="{{ page.cta3 }}" data-product="{{ page.product_id }}"  href="{{ site.helpers.life_new_order_path }}" class="button button--primary">Contrate Online</a>
+    </section>
+  </div>
+</div>

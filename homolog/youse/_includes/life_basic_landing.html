@@ -1,0 +1,82 @@
+<div class="container__content container__content--large container__content--with-shadow">
+  <section class="hero-banner">
+    <div class="hero-banner__background-wrapper">
+      <img src="{{ site.url }}/assets/images/life/icon-life.svg" class="hero-banner__background-icon">
+      <img src="{{ site.url }}{{ page.content_hero_path }}" class="hero-banner__background-image hero-banner__background-image--life-{{page.hero_name}}"">
+    </div>
+    <div class="hero-banner__content">
+      <h2 class="hero-banner__title">{{ page.content_title }}</h2>
+      <p class="hero-banner__description">{{ page.content_headline }}</p>
+      <a data-cta="true" data-analytics-cta="{{ page.cta1 }}" data-product="{{ page.product_id }}" href="{{ site.helpers.life_new_order_path }}" class="button button--primary button--with-shadow button--large">
+        <span class="txt--strong txt--no-break">fazer minha cotação</span>
+        <br><span class="button--large__secondary-label"><em class="txt--strong">é grátis</em> e leva só <em class="txt--strong">5 minutinhos</em></span>
+      </a>
+    </div>
+  </section>
+
+  <div class="container__content">
+    <section class="insurance-benefits">
+      <h3 class="insurance-benefits__title">Nossos serviços de <em class="txt--strong">Coberturas e Assistências</em></h3>
+      <div class="assistance-cards-collection">
+        {% for assistance in page.assistances %}
+          <article class="assistance-cards-collection__item">
+            <div class="card">
+              {% if assistance.is_large == true %}
+                <img src="{{ site.url }}{{ assistance.image_path }}" class="card__image card__image--large">
+              {% else %}
+                <img src="{{ site.url }}{{ assistance.image_path }}" class="card__image card__image--small">
+              {% endif %}
+              <h4 class="card__title">{{ assistance.title }}</h4>
+              <p class="card__description">{{ assistance.description }}</p>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+
+  <section class="hire-now">
+    <p class="hire-now__title">
+      Contrate agora,
+      <br class="hide--tablet hide--desktop">do seu jeito.
+      <br><em class="txt--strong">É 100% online e rapidinho!</em>
+    </p>
+    <a data-cta="true" data-analytics-cta="{{ page.cta2 }}" data-product="{{ page.product_id }}"  href="{{ site.helpers.life_new_order_path }}" class="button button--primary">fazer minha cotação</a>
+  </section>
+
+  <div class="container__content">
+    <section class="reasons-to-hire">
+      <p class="reasons-to-hire__title">
+        Por que ter um
+        <br><em class="txt--strong txt--no-break">Seguro Vida Youse?</em>
+      </p>
+      <p class="reasons-to-hire__description">Porque queremos que vc curta sua vida ao máximo, com a certeza de que tudo vai ficar bem, podendo montar seu <em class="txt--strong">seguro de vida online</em>, do seu jeito, escolhendo entre nossas coberturas e assistências.</p>
+
+      <ul class="cards-collection">
+        <li class="cards-collection__item">
+          <div class="card">
+            <img src="{{ site.url }}/assets/images/icon-digital-experience.svg" class="card__image">
+            <h5 class="card__title">Experiência digital: mais<br>próxima e divertida.</h5>
+            <p class="card__description">Somos online. e estamos sempre por perto. Como o mundo digital estamos inovando todo dia pra criar uma experiência única pra vc.</p>
+          </div>
+        </li>
+        <li class="cards-collection__item">
+          <div class="card">
+            <img src="{{ site.url }}/assets/images/icon-personal.svg" class="card__image">
+            <h5 class="card__title">Você personaliza<br>tudo como quiser.</h5>
+            <p class="card__description">Independente do estilo de vida, o <em class="txt--strong">seguro de vida</em> precisa ter a sua cara. É vc quem escolhe as coberturas e assistências que quer contratar, tipo vc.</p>
+          </div>
+        </li>
+        <li class="cards-collection__item">
+          <div class="card">
+            <img src="{{ site.url }}/assets/images/icon-direct-with-you.svg" class="card__image">
+            <h5 class="card__title">Direto com vc pra deixar<br>sua vida protegida.</h5>
+            <p class="card__description">Você tem total liberdade pra começar e finalizar o <em class="txt--strong">seguro de vida</em>. E sempre tem alguém pra te ajudar, é claro.</p>
+          </div>
+        </li>
+      </ul>
+
+      <a data-cta="true" data-analytics-cta="{{ page.cta3 }}" data-product="{{ page.product_id }}"  href="{{ site.helpers.life_new_order_path }}" class="button button--primary">fazer minha cotação</a>
+    </section>
+  </div>
+</div>

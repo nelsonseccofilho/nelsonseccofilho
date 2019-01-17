@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+// BASE
+@import "reset";
+@import "bourbon/bourbon";
+@import "grid-settings";
+@import "neat";
+@import "base/fonts";
+@import "base/colors";
+@import "base/texts";
+@import "base/links";
+@import "base/z-index";
+@import "base/behaviours";
+
+// COMPONENTS
+@import "components/assistance-cards-collection";
+@import "components/buttons";
+@import "components/cards";
+@import "components/cards-collections";
+@import "components/containers";
+@import "components/footers";
+@import "components/headers";
+@import "components/hero-banners";
+@import "components/sections";
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}

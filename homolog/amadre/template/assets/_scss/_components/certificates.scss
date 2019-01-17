@@ -1,0 +1,9 @@
+.certificates{
+    li{
+        display: inline-block;
+        width: 30px; 
+        &:first-child{
+            width: 85px;
+        }
+    }
+}

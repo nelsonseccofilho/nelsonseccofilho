@@ -1,0 +1,26 @@
+header {
+    background-color: transparent;
+    position: fixed;
+    right: 0;
+    width: 100px;
+    top: 40vh;
+    z-index: 5000;
+    .navigation{
+        li{
+            list-style-type: none;
+            .navigation__link{
+                background: url(../images/icons/asset-elipse.svg) no-repeat center center transparent;
+                color: $color-txt-invert;
+                display: block;
+                font-family: $akzidenz-grotesk_stdLtCn;
+                text-decoration: none;        
+            }
+        }
+        &.__invert{
+            .navigation__link{
+                background: url(../images/icons/asset-elipse-gray.svg) no-repeat center center transparent;
+                color: $color-txt-secundary;
+            }
+        }
+    }
+}

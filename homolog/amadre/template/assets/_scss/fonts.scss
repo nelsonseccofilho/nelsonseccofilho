@@ -1,0 +1,333 @@
+@font-face {
+    font-family: 'akzidenz-grotesk_stdbold';
+    src: url('../fonts/akzidgrostdbol-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdbol-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdBdCn';
+    src: url('../fonts/akzidgrostdbolcnd-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdbolcnd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdBdCnIt';
+    src: url('../fonts/akzidgrostdbolcndita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdbolcndita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdBdEx';
+    src: url('../fonts/akzidgrostdbolext-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdbolext-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdBdExIt';
+    src: url('../fonts/akzidgrostdbolextita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdbolextita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdBdIt';
+    src: url('../fonts/akzidgrostdbolita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdbolita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdRgCn';
+    src: url('../fonts/akzidgrostdcnd-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdcnd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdCnIt';
+    src: url('../fonts/akzidgrostdcndita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdcndita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdRgEx';
+    src: url('../fonts/akzidgrostdext-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdext-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdXBd';
+    src: url('../fonts/akzidgrostdextbol-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdextbol-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdXBdIt';
+    src: url('../fonts/akzidgrostdextbolita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdextbolita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdRgExIt';
+    src: url('../fonts/akzidgrostdextita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdextita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_std_regulaIt';
+    src: url('../fonts/akzidgrostdita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdlight';
+    src: url('../fonts/akzidgrostdlig-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdlig-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdLtCn';
+    src: url('../fonts/akzidgrostdligcnd-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdligcnd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdLtCnIt';
+    src: url('../fonts/akzidgrostdligcndita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdligcndita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdLtEx';
+    src: url('../fonts/akzidgrostdligext-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdligext-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdLtExIt';
+    src: url('../fonts/akzidgrostdligextita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdligextita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdLtIt';
+    src: url('../fonts/akzidgrostdligita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdligita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdmedium';
+    src: url('../fonts/akzidgrostdmed-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdmed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdMdCn';
+    src: url('../fonts/akzidgrostdmedcnd-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdmedcnd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdMdCnIt';
+    src: url('../fonts/akzidgrostdmedcndita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdmedcndita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdMdEx';
+    src: url('../fonts/akzidgrostdmedext-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdmedext-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdMdExIt';
+    src: url('../fonts/akzidgrostdmedextita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdmedextita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdLtExIt';
+    src: url('../fonts/akzidgrostdligextita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdligextita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdLtIt';
+    src: url('../fonts/akzidgrostdligita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdligita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdmedium';
+    src: url('../fonts/akzidgrostdmed-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdmed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdMdCn';
+    src: url('../fonts/akzidgrostdmedcnd-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdmedcnd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdMdCnIt';
+    src: url('../fonts/akzidgrostdmedcndita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdmedcndita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdMdEx';
+    src: url('../fonts/akzidgrostdmedext-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdmedext-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdMdExIt';
+    src: url('../fonts/akzidgrostdmedextita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdmedextita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdMdIt';
+    src: url('../fonts/akzidgrostdmedita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdmedita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_std_regulaRg';
+    src: url('../fonts/akzidgrostdreg-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdreg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdsuper';
+    src: url('../fonts/akzidgrostdsup-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdsup-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdsuperIt';
+    src: url('../fonts/akzidgrostdsupita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdsupita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdXBdCn';
+    src: url('../fonts/akzidgrostdxbolcnd-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdxbolcnd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk_stdXBdCnIt';
+    src: url('../fonts/akzidgrostdxbolcndita-webfont.woff2') format('woff2'), url('../fonts/akzidgrostdxbolcndita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoblack';
+    src: url('../fonts/roboto-black-webfont.woff2') format('woff2'), url('../fonts/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoblack_italic';
+    src: url('../fonts/roboto-blackitalic-webfont.woff2') format('woff2'), url('../fonts/roboto-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'), url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotobold_italic';
+    src: url('../fonts/roboto-bolditalic-webfont.woff2') format('woff2'), url('../fonts/roboto-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('../fonts/roboto-italic-webfont.woff2') format('woff2'), url('../fonts/roboto-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto-light-webfont.woff2') format('woff2'), url('../fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('../fonts/roboto-lightitalic-webfont.woff2') format('woff2'), url('../fonts/roboto-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../fonts/roboto-medium-webfont.woff2') format('woff2'), url('../fonts/roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotomedium_italic';
+    src: url('../fonts/roboto-mediumitalic-webfont.woff2') format('woff2'), url('../fonts/roboto-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'), url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotothin';
+    src: url('../fonts/roboto-thin-webfont.woff2') format('woff2'), url('../fonts/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotothin_italic';
+    src: url('../fonts/roboto-thinitalic-webfont.woff2') format('woff2'), url('../fonts/roboto-thinitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto_condensedbold';
+    src: url('../fonts/robotocondensed-bold-webfont.woff2') format('woff2'), url('../fonts/robotocondensed-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto_condensedbold_italic';
+    src: url('../fonts/robotocondensed-bolditalic-webfont.woff2') format('woff2'), url('../fonts/robotocondensed-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto_condenseditalic';
+    src: url('../fonts/robotocondensed-italic-webfont.woff2') format('woff2'), url('../fonts/robotocondensed-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto_condensedlight';
+    src: url('../fonts/robotocondensed-light-webfont.woff2') format('woff2'), url('../fonts/robotocondensed-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto_condensedlight_italic';
+    src: url('../fonts/robotocondensed-lightitalic-webfont.woff2') format('woff2'), url('../fonts/robotocondensed-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto_condensedregular';
+    src: url('../fonts/robotocondensed-regular-webfont.woff2') format('woff2'), url('../fonts/robotocondensed-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Typography
+$akzidenz-grotesk_stdLtCn: 'akzidenz-grotesk_stdLtCn', 'helvetica neue', arial, sans-serif;

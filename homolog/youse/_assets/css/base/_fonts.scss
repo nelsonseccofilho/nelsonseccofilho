@@ -1,0 +1,4 @@
+@include font-face('FelbridgePro', '/assets/fonts/FelbridgePro-Thin', 200, $asset-pipeline: true, $file-formats: eot otf svg ttf woff);
+@include font-face('FelbridgePro', '/assets/fonts/FelbridgePro-Light', 300, $asset-pipeline: true, $file-formats: eot otf svg ttf woff);
+@include font-face('FelbridgePro', '/assets/fonts/FelbridgePro-Regular', 400, $asset-pipeline: true, $file-formats: eot otf svg ttf woff);
+@include font-face('FelbridgePro', '/assets/fonts/FelbridgePro-Bold', 700, $asset-pipeline: true, $file-formats: eot otf svg ttf woff);

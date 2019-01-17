@@ -1,0 +1,40 @@
+// $large | 1025px, 1440px
+@media only screen and (min-width: 64.063em) {
+    #container{
+        margin-top: -56px;
+    } 
+    @import "_components/navegation";
+    .reel{
+    	padding: 2em 0;
+    }
+    .about {
+	    background-size: 160em;
+        min-height: 700px;	
+	    p{
+			padding: 50% 2em 0;
+			font-size: 2.8em;
+	    }
+	}
+	.clients{
+		.column-block{
+			&:nth-last-child(-n+2){
+				width: 25%;
+			}		
+		}
+	}
+	.contact{
+		.contact-container{	
+			padding: 2em 8em 2em 2em;
+			p, a{
+				margin-bottom: 3em;
+			}
+		}
+	}	
+}
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+    /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+    .large {
+        display: none;
+    }    
+}

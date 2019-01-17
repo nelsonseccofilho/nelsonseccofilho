@@ -1,0 +1,19 @@
+// $xlarge | 1441px, 1920px
+@media only screen and (min-width: 90.063em) { 
+	/* min-width 1441px, xlarge screens */
+	.xlarge{
+		display: none;
+	}
+    .about {
+	    background-size: 180em;
+	    p{
+			padding: 55% 2em 0;
+	    }    
+	}
+}
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+	/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */	
+	.xlarge{
+		display: none;
+	}	
+}

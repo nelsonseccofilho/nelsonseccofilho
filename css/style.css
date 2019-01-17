@@ -432,7 +432,7 @@ p > a:hover{
 .box-intro {
     text-align: center;
     display: table;
-    height: 100vh;
+    height: 87vh;
     width: 100%;
 }
 
@@ -464,7 +464,7 @@ b i:last-child {
     position: absolute;
     width: 22px;
     height: 42px;
-    bottom: 40px;
+    bottom: 17vh;
     left: 50%;
     margin-left: -12px;
     border-radius: 15px;

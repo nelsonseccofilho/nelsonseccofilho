@@ -1,0 +1,57 @@
+// INSURANCE BENEFITS SECTION
+.insurance-benefits {
+  @extend .txt--centered;
+  padding: 48px 12px;
+
+  @include media($desktop) {
+    padding: 96px 12px 48px;
+  }
+}
+
+.insurance-benefits__title {
+  @include headline-2;
+
+  margin-bottom: 36px;
+
+  @include media($desktop) {
+    @include headline-1;
+  }
+}
+
+// HIRE NOW SECTION
+.hire-now {
+  @extend .txt--centered;
+  background: $background-content-highlight-color;
+  margin-left: -$gutter;
+  margin-right: -$gutter;
+  padding: 108px 0 96px;
+}
+
+.hire-now__title {
+  @include headline-2;
+  margin-bottom: 22px;
+}
+
+// REASONS TO HIRE SECTION
+.reasons-to-hire {
+  @extend .txt--centered;
+  padding: 120px 12px 200px;
+}
+
+.reasons-to-hire__title {
+  @include headline-2;
+
+  @include media($desktop) {
+    @include headline-1;
+  }
+}
+
+.reasons-to-hire__description {
+  @include text-3;
+  padding: 24px 0 12px;
+
+  @include media($desktop) {
+    @include text-2;
+    padding: 24px 7em 12px;
+  }
+}

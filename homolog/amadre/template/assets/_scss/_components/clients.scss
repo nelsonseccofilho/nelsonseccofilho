@@ -1,0 +1,11 @@
+.clients{
+	.column-block{
+		&:nth-last-child(-n+2){
+			width: 50%;
+			img{
+				padding: 0 10%;
+				width: 90%;
+			}
+		}		
+	}
+}

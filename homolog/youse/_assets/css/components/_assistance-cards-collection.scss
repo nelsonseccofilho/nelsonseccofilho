@@ -1,0 +1,143 @@
+.assistance-cards-collection,
+.assistance-cards-collection__outubro-rosa {
+  @include clearfix;
+}
+
+.assistance-cards-collection__item {
+  @include span-columns(4 of 4);
+  @include omega;
+
+  margin-bottom: 24px;
+
+  @include media($tablet) {
+    @include span-columns(6 of 12);
+
+    &:nth-child(1) {
+      @include span-columns(12 of 12);
+    }
+
+    &:nth-child(2n) {
+      @include omega;
+    }
+
+    &:nth-child(3n + 1) {
+      clear: both;
+    }
+  }
+
+  @include media($desktop) {
+    @include span-columns(3 of 12);
+
+    &:nth-child(1) {
+      @include span-columns(6 of 12);
+    }
+
+    // Reset Tablet media-query margin removal
+    &:nth-child(2n) {
+      @include span-columns(3 of 12);
+    }
+
+    // Reset Tablet media-query float clearing
+    &:nth-child(3n + 1) {
+      clear: none;
+    }
+
+    &:nth-child(3n) {
+      @include omega;
+    }
+
+    &:nth-child(4n + 1) {
+      clear: both;
+    }
+  }
+}
+
+.outubro-rosa,
+.outubro-rosa-produto{
+
+  .assistance-cards-collection__item{
+    @include span-columns(4 of 4);
+    @include omega;
+
+    margin-bottom: 24px;
+
+    @include media($tablet) {
+      @include span-columns(6 of 12);
+
+      &:nth-child(1) {
+        @include span-columns(12 of 12);
+      }
+
+      &:nth-child(2n) {
+        @include omega;
+      }
+
+      &:nth-child(3n + 1) {
+        clear: both;
+      }
+    }
+
+    @include media($desktop) {
+      @include span-columns(4 of 12);
+
+      &:nth-child(1) {
+        @include span-columns(4 of 12);
+      }
+    }
+  }
+
+  .assistance-cards-collection__outubro-rosa .assistance-cards-collection__item{
+    @include media($tablet) {
+      &:nth-child(1),
+      &:nth-child(2) {
+        @include span-columns(12 of 12);
+      }
+
+      &:nth-child(2n + 1) {
+        @include omega;
+        clear: both;
+      }
+    }
+
+    @include media($desktop) {
+      @include span-columns(4 of 12);
+
+      &:nth-child(1) {
+        @include span-columns(8 of 12);
+      }
+      &:nth-child(2) {
+        @include span-columns(4 of 12);
+      }      
+
+      .card > img{
+        margin-top: -25px;
+      }
+    }  
+  }
+
+  .assistance-cards-collection__outubro-rosa-produto .assistance-cards-collection__item{
+    @include media($tablet) {
+      &:nth-child(1),
+      &:nth-child(2) {
+        @include span-columns(12 of 12);
+      }
+
+      &:nth-child(2n + 1) {
+        @include omega;
+        clear: both;
+      }
+    }
+    
+    @include media($desktop) {
+      @include span-columns(4 of 12);
+
+      &:nth-child(1) {
+        @include span-columns(12 of 12);
+      }
+      &:nth-child(2) {
+        display: none;
+      }      
+    }  
+  }  
+
+}

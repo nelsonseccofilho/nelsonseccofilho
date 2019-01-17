@@ -1,0 +1,15 @@
+.about {
+    background: url("../images/logos/logo-a-madre-written.png") no-repeat 50% 0 transparent;
+    background-size: 200%;
+    p{
+        color: $color-txt-secundary;
+        padding: 45% 2em 0;
+        font-size: 1.2em;
+        line-height: 1.8em;
+    }
+    img{
+        padding: 0 5%;
+        width: 100%;
+    }                
+}
+        

@@ -1,0 +1,337 @@
+.hero-banner {
+  position: relative;
+  height: 480px;
+  padding-left: $gutter;
+  padding-right: $gutter;
+  margin-right: -$gutter;
+  margin-left: -$gutter;
+  transition: height 300ms;
+
+  @include media($desktop) {
+    height: 600px;
+  }
+}
+
+.hero-banner__content {
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+  z-index: $z-index-hero-content;
+
+  @include media($desktop) {
+    padding-top: 200px;
+    text-align: left;
+    @include span-columns(7 of 12);
+    @include shift(5 of 12);
+  }
+}
+
+.hero-banner__title {
+  @include headline-1($text-negative-color);
+  margin-bottom: 16px;
+  
+  .txt--strong {
+    font-weight: 400;
+  }
+
+  @include media($desktop) {
+    @include headline-0($text-negative-color);
+  }
+}
+
+.hero-banner__description {
+  @include title-3($text-negative-color);
+
+  margin-bottom: 22px;
+
+  @include media($desktop) {
+    @include title-2($text-negative-color);
+  }
+}
+
+.hero-banner__background-wrapper {
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.hero-banner__background-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  min-width: 100%;
+  min-height: 100%;
+  max-height: 120%;
+  z-index: $z-index-hero-bg-image;
+
+  @include media($tablet) {
+    max-height: none;
+    bottom: auto;
+  }
+
+  @include media($desktop) {
+    bottom: auto;
+  }
+}
+
+.hero-banner__background-icon {
+  bottom: 0;
+  display: none;
+  max-height: 80%;
+  position: absolute;
+  right: 45%;
+  z-index: $z-index-hero-bg-icon;
+
+  @include media($tablet) {
+    display: block;
+    max-height: 80%;
+    right: 70%;
+  }
+
+  @include media($desktop) {
+    display: block;
+    max-height: 100%;
+    right: 63%;
+  }
+}
+
+.hero-banner__home-gradient-layer {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), transparent 15%), linear-gradient(to left, rgba(235, 94, 80, 0.05), #000 230%), transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: $z-index-hero-bg-image;
+}
+
+.hero-banner__background-image--home-accessibility {
+  right: -100%;
+
+  @include media($tablet) {
+    right: -20%;
+  }
+
+  @include media($desktop) {
+    right: 0;
+  }
+}
+
+.hero-banner__background-image--home-basic {
+  right: -190%;
+
+  @include media($tablet) {
+    right: -35%;
+  }
+
+  @include media($desktop) {
+    right: 0;
+  }
+}
+
+.hero-banner__background-image--home-electrician {
+  right: -115%;
+
+  @include media($tablet) {
+    right: 0;
+    max-width: 100%;
+  }
+
+  @include media($desktop) {
+    right: 0;
+    max-width: 100%;
+  }
+}
+
+.hero-banner__background-image--home-kids {
+  right: -241%;
+
+  @include media($tablet) {
+    right: -40%;
+  }
+
+  @include media($desktop) {
+    right: 0;
+  }
+}
+
+.hero-banner__background-image--home-pets {
+  right: -150%;
+
+  @include media($tablet) {
+    right: -66%;
+  }
+
+  @include media($desktop) {
+    right: 0;
+  }
+}
+
+.hero-banner__background-image--home-plumber {
+  max-height: initial;
+  min-height: initial;
+  min-width: initial;
+  right: -55%;
+  width: 230%;
+
+  @include media($tablet) {
+    right: 0;
+    width: 100%;
+  }
+
+  @include media($desktop) {
+    right: 0;
+    width: 100%;
+  }
+}
+
+.hero-banner__background-image--home-rent {
+  right: -55%;
+
+  @include media($tablet) {
+    right: -10%;
+  }
+
+  @include media($desktop) {
+    right: 0;
+  }
+}
+
+.hero-banner__background-image--home-senior {
+  right: -50%;
+
+  @include media($tablet) {
+    right: 0;
+  }
+
+  @include media($desktop) {
+    right: 0;
+  }
+}
+
+.hero-banner__background-image--home-sustainability {
+  right: -120%;
+
+  @include media($tablet) {
+    right: -40%;
+  }
+
+  @include media($desktop) {
+    right: 0;
+  }
+}
+
+.hero-banner__background-image--home-travel {
+  right: -220%;
+
+  @include media($tablet) {
+    right: -50%;
+  }
+
+  @include media($desktop) {
+    right: 0;
+  }
+}
+
+.hero-banner__background-image--life-assist-babyboom {
+  right: -185%;
+
+  @include media($tablet) {
+    right: -50%;
+  }
+
+  @include media($desktop) {
+    right: 0;
+  }
+}
+
+.hero-banner__background-image--life-assist-bike {
+  right: -40%;
+
+  @include media($tablet) {
+    right: -20%;
+  }
+
+  @include media($desktop) {
+    right: 0;
+  }
+}
+
+.hero-banner__background-image--life-assist-checkup {
+  right: -170%;
+
+  @include media($tablet) {
+    right: -60%;
+  }
+
+  @include media($desktop) {
+    right: 0;
+  }
+}
+
+.hero-banner__background-image--life-assist-fitness {
+  right: -133%;
+  top: -10%;
+
+  @include media($tablet) {
+    right: -25%;
+    top: 0;
+  }
+
+  @include media($desktop) {
+    right: 0;
+    top: 0;
+  }
+}
+
+.hero-banner__background-image--life-assist-pet {
+  right: -55%;
+
+  @include media($tablet) {
+    right: -45%;
+  }
+
+  @include media($desktop) {
+    right: 0;
+  }
+}
+
+.hero-banner__background-image--life-coverage-driver-bud {
+  right: -133%;
+
+  @include media($tablet) {
+    right: -30%;
+  }
+
+  @include media($desktop) {
+    right: 0;
+  }
+}
+
+.hero-banner__background-image--life-coverage-temp-disability {
+  right: -80%;
+
+  @include media($tablet) {
+    right: -30%;
+  }
+
+  @include media($desktop) {
+    right: 0;
+  }
+}
+
+.hero-banner__background-image--life-coverage-unemployment {
+  right: -150%;
+
+  @include media($tablet) {
+    right: -30%;
+  }
+
+  @include media($desktop) {
+    right: 0;
+  }
+}

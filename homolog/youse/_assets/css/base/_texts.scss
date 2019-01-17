@@ -1,0 +1,90 @@
+@mixin text($size, $line-height, $color, $weight) {
+  font-family: 'FelbridgePro', Helvetica, Arial, sans-serif;
+  font-size: $size;
+  line-height: $line-height;
+  color: $color;
+  font-weight: $weight;
+}
+
+// TITLES
+@mixin title-1($color: $text-primary-color) {
+  @include text(44px, 56px, $color, 300);
+}
+
+@mixin title-2($color: $text-primary-color) {
+  @include text(24px, 36px, $color, 300);
+}
+
+@mixin title-3($color: $text-primary-color) {
+  @include text(18px, 24px, $color, 700);
+}
+
+@mixin title-4($color: $text-primary-color) {
+  @include text(14px, 12px, $color, 700);
+}
+
+@mixin title-5($color: $text-primary-color) {
+  @include text(12px, 12px, $color, 700);
+}
+
+// HEADLINES
+@mixin headline-0($color: $text-color) {
+  @include text(72px, 68px, $color, 200);
+}
+
+@mixin headline-1($color: $text-color) {
+  @include text(44px, 56px, $color, 200);
+}
+
+@mixin headline-2($color: $text-color) {
+  @include text(30px, 36px, $color, 300);
+}
+
+// TEXTS
+@mixin text-2($color: $text-color) {
+  @include text(20px, 24px, $color, 300);
+}
+
+@mixin text-3($color: $text-color) {
+  @include text(16px, 24px, $color, 300);
+}
+
+@mixin text-4($color: $text-color) {
+  @include text(14px, 16px, $color, 300);
+}
+
+@mixin text-5($color: $text-color) {
+  @include text(12px, 16px, $color, 300);
+}
+
+// MODIFIERS
+.txt--strong {
+  font-weight: 700;
+}
+
+.txt--centered {
+  text-align: center;
+}
+
+.txt--no-break {
+  white-space: nowrap;
+}
+
+.txt--upcase {
+  text-transform: uppercase;
+}
+
+.txt--negative {
+  color: $text-negative-color !important;
+}
+
+// CLASSES
+.title-2 { @include title-2; }
+.title-3 { @include title-3; }
+.title-4 { @include title-3; }
+
+.headline-2 { @include headline-2; }
+
+.text-2 { @include text-2; }
+.text-3 { @include text-3; }
+.text-4 { @include text-4; }

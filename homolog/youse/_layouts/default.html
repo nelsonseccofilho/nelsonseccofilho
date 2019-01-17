@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>{{ page.seo.title }} | Youse</title>
+
+    <!-- BEGIN META-TAGS -->
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="description" content="{{ page.seo.description }}">
+    <meta name="keywords" content="{{ page.seo.keywords }}">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Youse">
+    <meta property="fb:admins" content="127887287553246" />
+    <meta name="twitter:site" content="@youseseguradora" />
+    <meta name="robots" content="noindex, nofollow">
+    <!-- END META-TAGS -->
+
+    <!-- BEGIN FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.url }}/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{{ site.url }}/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ site.url }}/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/favicon-16x16.png">
+    <link rel="manifest" href="{{ site.url }}/manifest.json">
+    <meta name="msapplication-TileColor" content="#472f92" />
+    <meta name="mmsapplication-TileImage" content="{{ site.url }}/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#472f92" />
+    <!-- END FAVICON -->
+
+    {% css main %}
+
+    <script type="text/javascript" src="//try.abtasty.com/d64ce892e967d861e52eb38697143b57.js"></script>
+  </head>
+
+  <body id="container">
+    <header class="main-header" data-main-header>
+      <div class="container__content">
+        <h1 class="main-header__logo">Youse</h1>
+        <a href="tel:{{ site.helpers.call_center_sales_phone }}" class="main-header__cta" title="Contrate agora: {{ site.helpers.call_center_sales_phone }}">
+          <span class="main-header__cta-label hide--mobile">Contrate agora:</span>
+          {{ site.helpers.call_center_sales_phone }}
+        </a>
+      </div>
+    </header>
+
+    {{ content }}
+
+    <footer class="main-footer">
+      <div class="container__content">
+        <div class="main-footer__globalsign">&nbsp;</div>
+
+        <div class="main-footer__social-actions">
+          <div class="social-media">
+            <a class="social-media__link social-media__link--facebook" href="{{ site.helpers.social_facebook_path }}" title="Facebook" target="_blank" rel="nofollow">Facebook</a>
+            <a class="social-media__link social-media__link--twitter" href="{{ site.helpers.social_twitter_path }}" title="Twitter" target="_blank" rel="nofollow">Twitter</a>
+            <a class="social-media__link social-media__link--linkedin" href="{{ site.helpers.social_linkedin_path }}" title="Linkedin" target="_blank" rel="nofollow">Linkedin</a>
+            <a class="social-media__link social-media__link--instagram" href="{{ site.helpers.social_instagram_path }}" title="Instagram" target="_blank" rel="nofollow">Instagram</a>
+          </div>
+        </div>
+
+        <div class="main-footer__youse-logo">Youse</div>
+
+        <div class="main-footer__text-block">
+          <p class="main-footer__text">
+            Os produtos comercializados neste site são garantidos pela Caixa Seguradora S.A., inscrita no CNPJ nº<br>
+            34.020.354/0001-10, sediada no SHN, Quadra 01. Conjunto A. Bloco E. CEP 70701 050 - Brasília DF.<br> 
+            Youse é uma plataforma de vendas de seguros online da Caixa Seguradora. 
+          </p>
+          <p class="main-footer__text">
+            &copy; 2016 Youse &dash; Todos os direitos reservados. <span class="txt--strong">Política de Privacidade</span><br>
+            Entre em contato com a gente pelos números:<br>
+            <a href="tel:{{ site.helpers.call_center_sac_phone }}" class="main-footer__contact-number txt--no-break">SAC: <span class="txt--strong">{{ site.helpers.call_center_sac_phone }}</span></a>
+            <a href="tel:{{ site.helpers.call_center_ombudsman_phone }}" class="main-footer__contact-number txt--no-break">Ouvidoria: <span class="txt--strong">{{ site.helpers.call_center_ombudsman_phone }}</span></a>
+            <a href="tel:{{ site.helpers.call_center_deaf_phone }}" class="main-footer__contact-number txt--no-break">Surdo/Mudo: <span class="txt--strong">{{ site.helpers.call_center_deaf_phone }}</span></a>
+          </p>
+        </div>
+
+      </div>
+    </footer>
+
+
+    <!-- BEGIN JAVASCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    {% js main %}
+    <!-- END JAVASCRIPT -->
+
+    <!-- Google Tag Manager -->
+    <script type="text/javascript">
+      y_dataLayer = [];
+      y_dataLayer.push({'criteo':
+        {
+          'productID': '{{ page.product_id }}'
+        }
+      });
+    </script>
+
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NQNWRL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','y_dataLayer','GTM-NQNWRL');
+    </script>
+    <!-- End Google Tag Manager -->
+  </body>
+</html>

@@ -1,0 +1,513 @@
+/*
+YUI 3.18.1 (build f7e7bcb)
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+html {
+  color: #000;
+  background: #fff; }
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset,
+img {
+  border: 0; }
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol,
+ul {
+  list-style: none; }
+
+caption,
+th {
+  text-align: left; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+q:before,
+q:after {
+  content: ""; }
+
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal; }
+
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  *font-size: 100%; }
+
+legend {
+  color: #000; }
+
+#yui3-css-stamp.cssreset {
+  display: none; }
+
+@font-face {
+  font-family: "aaux_probold_italicregular";
+  src: url(src/fonts/aaux_pro_bold_italic-webfont.woff2) format("woff2"), url(src/fonts/aaux_pro_bold_italic-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "aaux_promediumregular";
+  src: url(src/fonts/aaux_pro_bold-webfont.woff2) format("woff2"), url(src/fonts/aaux_pro_bold-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "aaux_problackregular";
+  src: url(src/fonts/aaux_pro_heavy-webfont.woff2) format("woff2"), url(src/fonts/aaux_pro_heavy-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "aaux_prolight_italicregular";
+  src: url(src/fonts/aaux_pro_light_italic-webfont.woff2) format("woff2"), url(src/fonts/aaux_pro_light_italic-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "aaux_prothinregular";
+  src: url(src/fonts/aaux_pro_light-webfont.woff2) format("woff2"), url(src/fonts/aaux_pro_light-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "aaux_pro_medium";
+  src: url(src/fonts/aaux_pro_medium-webfont.woff2) format("woff2"), url(src/fonts/aaux_pro_medium-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "aaux_prolightregular";
+  src: url(src/fonts/aaux_pro_regular-webfont.woff2) format("woff2"), url(src/fonts/aaux_pro_regular-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "brandongrotesque-bold";
+  src: url(src/fonts/brandon_grotesque_bold-webfont.woff2) format("woff2"), url(src/fonts/brandon_grotesque_bold-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "brandongrotesque-medium";
+  src: url(src/fonts/brandon_grotesque_medium-webfont.woff2) format("woff2"), url(src/fonts/brandon_grotesque_medium-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "TradeGothicLTStd-Light";
+  src: url(src/fonts/TradeGothicLTStd-Light.woff2) format("woff2"), url(src/fonts/TradeGothicLTStd-Light.woff) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+* {
+  transition: all 0.4s ease-in-out; }
+
+#main-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 107px;
+  height: 100vh;
+  background: url(src/images/bg/bg-menu-min.png) 0 0 no-repeat transparent;
+  background-size: cover;
+  z-index: 4;
+  margin: 0;
+  padding: 0;
+  transition: all 0.4s ease-in-out; }
+  #main-menu .main-logo,
+  #main-menu .secundary-logo {
+    position: absolute;
+    background-size: contain !important; }
+  #main-menu .main-logo {
+    left: 24px;
+    top: 68px;
+    width: 59px;
+    height: 74px;
+    background: url(src/images/logo/logo-marrom-01@3x-min.png) 0 0 no-repeat transparent; }
+  #main-menu .secundary-logo {
+    opacity: 0; }
+  #main-menu .onepage-pagination {
+    top: auto;
+    left: 11px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+    #main-menu .onepage-pagination li {
+      position: relative;
+      left: 35px;
+      height: 24px;
+      padding: 10px 10px 10px 30px;
+      color: #43231c;
+      font-size: 28px;
+      line-height: 28px;
+      text-align: left;
+      text-transform: uppercase;
+      opacity: 0.9;
+      font-family: "aaux_prothinregular", Arial, Helvetica, sans-serif; }
+      #main-menu .onepage-pagination li:hover, #main-menu .onepage-pagination li.active {
+        opacity: 1;
+        font-family: "aaux_prolightregular", Arial, Helvetica, sans-serif; }
+      #main-menu .onepage-pagination li::before {
+        top: -4px;
+        position: absolute; }
+      #main-menu .onepage-pagination li a {
+        background: url(src/images/icons/ellipse-1-copy@3x-min.png) 0 0 no-repeat transparent;
+        width: 100%;
+        height: 24px;
+        padding: 0;
+        opacity: 0.9;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        color: transparent; }
+        #main-menu .onepage-pagination li a::before {
+          background-color: transparent;
+          border: none;
+          display: block;
+          line-height: 24px;
+          margin: 0;
+          height: 24px;
+          width: 90%; }
+        #main-menu .onepage-pagination li a.active::before {
+          background: url(src/images/icons/ellipse-1@3x-min.png) 0 0 no-repeat transparent;
+          left: 0 !important;
+          opacity: 1; }
+  #main-menu #social-container {
+    position: absolute;
+    bottom: 0;
+    left: 14px;
+    width: 90%;
+    height: 140px;
+    list-style: none; }
+    #main-menu #social-container span {
+      display: block;
+      position: absolute;
+      top: 30px;
+      left: 0;
+      transform: rotate(-90deg); }
+      #main-menu #social-container span strong {
+        color: #707070;
+        font-family: "TradeGothicLTStd-Light", Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        font-weight: bold; }
+    #main-menu #social-container .social-list {
+      top: 0;
+      position: absolute;
+      left: 60px;
+      width: 80px;
+      opacity: 0; }
+      #main-menu #social-container .social-list li {
+        display: inline;
+        list-style: none; }
+        #main-menu #social-container .social-list li a {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          padding: 0.25em;
+          margin: 0.25em;
+          opacity: 0.9; }
+          #main-menu #social-container .social-list li a:hover {
+            opacity: 1; }
+  #main-menu:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 280px; }
+    #main-menu:hover .main-logo {
+      left: 44px;
+      top: 68px;
+      width: 125px;
+      height: 155px; }
+    #main-menu:hover .secundary-logo {
+      background: url(http://localhost:5000/src/images/logo/rele-chateau@3x.png) 0 0 no-repeat transparent;
+      position: absolute;
+      bottom: 22%;
+      left: 44px;
+      width: 63px;
+      height: 67px;
+      opacity: 1; }
+    #main-menu:hover .onepage-pagination {
+      opacity: 1;
+      left: 24px; }
+      #main-menu:hover .onepage-pagination li:nth-child(1)::before {
+        content: "CARNAVAL"; }
+      #main-menu:hover .onepage-pagination li:nth-child(2)::before {
+        content: "BRASIL"; }
+      #main-menu:hover .onepage-pagination li:nth-child(3)::before {
+        content: "BAHIA"; }
+      #main-menu:hover .onepage-pagination li:nth-child(4)::before {
+        content: "TXAI"; }
+      #main-menu:hover .onepage-pagination li:nth-child(5)::before {
+        content: "ROTEIRO"; }
+    #main-menu:hover #social-container {
+      left: 22px; }
+      #main-menu:hover #social-container .social-list {
+        opacity: 1; }
+        #main-menu:hover #social-container .social-list li:nth-child(1) a {
+          background: url(src/images/social/facebook@3x-min.png) no-repeat center center transparent;
+          background-size: contain; }
+        #main-menu:hover #social-container .social-list li:nth-child(2) a {
+          background: url(src/images/social/website-icon-8@3x-min.png) no-repeat center center transparent;
+          background-size: contain; }
+        #main-menu:hover #social-container .social-list li:nth-child(3) a {
+          background: url(src/images/social/instagram@3x-min.png) no-repeat center center transparent;
+          background-size: contain; }
+        #main-menu:hover #social-container .social-list li:nth-child(4) a {
+          background: url(src/images/social/you-tube-light-color-icon@3x-min.png) no-repeat center center transparent;
+          background-size: contain; }
+
+.main section {
+  background: no-repeat center center transparent;
+  background-size: cover !important;
+  overflow: hidden; }
+  .main section article {
+    border-bottom: 0.5px solid #333;
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    padding: 2em 2em 2em 2em; }
+    .main section article.ilustration {
+      background-size: 70%; }
+      .main section article.ilustration .inner .img-banner {
+        background: url(src/images/bg/txa-3268@3x-min.png) 0 0 no-repeat transparent;
+        width: 33%;
+        min-height: 220px; }
+    .main section article .inner {
+      flex: 1 1 50%;
+      padding: 1em; }
+
+h1,
+h2,
+h3,
+p {
+  font-family: "aaux_prolightregular", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  text-shadow: 1.8px 3px 2.5px rgba(0, 0, 0, 0.31);
+  margin: 0 0 1em 0; }
+
+h1 {
+  color: #ffce3f;
+  font-family: "brandongrotesque-bold", Arial, Helvetica, sans-serif;
+  font-weight: bold; }
+
+h2 {
+  color: #fff;
+  font-family: "brandongrotesque-medium", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px; }
+
+section:nth-child(1) {
+  background-image: url(src/images/bg/total@3x-min.png); }
+  section:nth-child(1) article {
+    background: url(src/images/ilustrations/yellow-ilustration@3x-min.png) -160px -460px no-repeat transparent; }
+    section:nth-child(1) article .inner {
+      display: flex;
+      flex-flow: column nowrap;
+      margin: -10% 0 0 30%; }
+      section:nth-child(1) article .inner h1 {
+        font-size: 90px;
+        letter-spacing: -3.5px;
+        margin-bottom: 0.25em; }
+      section:nth-child(1) article .inner span {
+        font-family: "aaux_prolightregular", Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        height: 30px;
+        text-shadow: 1.8px 3px 2.5px rgba(0, 0, 0, 0.31);
+        color: #fff; }
+        section:nth-child(1) article .inner span strong {
+          color: #ffce3f;
+          font-family: "brandongrotesque-bold", Arial, Helvetica, sans-serif;
+          letter-spacing: -1.5px; }
+
+section:nth-child(2) {
+  background-image: url(src/images/bg/bg@3x-min.png); }
+  section:nth-child(2) article .inner h2 {
+    font-size: 40px;
+    letter-spacing: -1.5px; }
+  section:nth-child(2) article .inner p {
+    color: #fff !important; }
+  section:nth-child(2) article .inner:nth-child(1) {
+    padding-left: 20vw; }
+
+section:nth-child(3) {
+  background-image: url(src/images/bg/foto@3x-min.png); }
+  section:nth-child(3) article {
+    align-items: flex-start;
+    padding: 65px 15vw 0 30vw; }
+    section:nth-child(3) article .inner h2 {
+      font-family: "brandongrotesque-medium", Arial, Helvetica, sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+      letter-spacing: -1px;
+      text-align: center;
+      color: #fff; }
+    section:nth-child(3) article .inner p {
+      font-family: "aaux_prolightregular", Arial, Helvetica, sans-serif;
+      color: #fff; }
+
+section:nth-child(4) {
+  background-image: url(src/images/bg/img@3x-min.png); }
+  section:nth-child(4) .legend {
+    background-color: #fff;
+    font-family: "aaux_pro_medium", Arial, Helvetica, sans-serif;
+    padding: 0.5em 5vw 0.5em 5vw;
+    margin: 40vw 0 0 10vw; }
+
+section:nth-child(5) {
+  background-color: #fdfefd; }
+  section:nth-child(5) .form-container form {
+    width: 50%;
+    margin: 0 auto; }
+    section:nth-child(5) .form-container form .input-container,
+    section:nth-child(5) .form-container form .textarea-container {
+      margin-bottom: 0.75em; }
+      section:nth-child(5) .form-container form .input-container label,
+      section:nth-child(5) .form-container form .textarea-container label {
+        font-family: "brandongrotesque-medium", Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        line-height: 18px;
+        color: #707070; }
+      section:nth-child(5) .form-container form .input-container input,
+      section:nth-child(5) .form-container form .input-container textarea,
+      section:nth-child(5) .form-container form .textarea-container input,
+      section:nth-child(5) .form-container form .textarea-container textarea {
+        background-color: #fff;
+        box-sizing: content-box;
+        border: solid 1px rgba(0, 0, 0, 0.05);
+        border-radius: 0.8px;
+        box-shadow: 1.8px 1.8px 0 0 rgba(0, 0, 0, 0.06);
+        padding: 5px 10px;
+        width: 100%; }
+  section:nth-child(5) .inner:nth-child(2) {
+    padding: 2em 4em 2em 0; }
+    section:nth-child(5) .inner:nth-child(2) .img-banner {
+      background: url(src/images/bg/txa-3268@3x-min.png) center center no-repeat transparent;
+      width: 100%;
+      height: 60vh;
+      margin-bottom: .75em; }
+    section:nth-child(5) .inner:nth-child(2) #premios li {
+      display: inline-block; }
+  section:nth-child(5) h2 {
+    color: #43231c;
+    text-align: center; }
+
+@media screen and (max-width: 768px) {
+  #main-menu {
+    width: 12vw !important; }
+    #main-menu .main-logo {
+      left: 1vw !important; }
+    #main-menu .secundary-logo,
+    #main-menu #social-container {
+      display: none !important; }
+    #main-menu:hover {
+      width: 12vw !important; }
+      #main-menu:hover .main-logo {
+        width: 59px !important;
+        height: 74px !important; }
+    #main-menu .onepage-pagination {
+      left: -1vw !important; }
+      #main-menu .onepage-pagination li::before {
+        content: "" !important; }
+  .main section article {
+    flex-direction: column !important; }
+    .main section article .inner {
+      width: 100vw; }
+      .main section article .inner .img-banner {
+        background-image: url(src/images/bg/txa-3268-min.png); }
+  p {
+    color: blue; }
+  section:nth-child(1) {
+    background: url(src/images/bg/total-min.png) center center no-repeat transparent; }
+  section:nth-child(2) {
+    background-image: url(src/images/bg/bg-min.png); }
+  section:nth-child(3) {
+    background-image: url(src/images/bg/foto-min.png); }
+  section:nth-child(4) {
+    background-image: url(src/images/bg/img-min.png); }
+  section:nth-child(5) article {
+    flex-direction: column-reverse !important; } }
+
+@media screen and (max-width: 411px) {
+  #main-menu {
+    width: 18vw !important; }
+    #main-menu .main-logo {
+      left: 1vw !important; }
+    #main-menu .secundary-logo,
+    #main-menu #social-container {
+      display: none !important; }
+    #main-menu:hover {
+      width: 18vw !important; }
+      #main-menu:hover .main-logo {
+        width: 59px !important;
+        height: 74px !important; }
+    #main-menu .onepage-pagination {
+      left: -1vw !important;
+      top: 70% !important;
+      transform: translateY(-70%) !important; } }
+
+
+/*# sourceMappingURL=bundle.css.map*/

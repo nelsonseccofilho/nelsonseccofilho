@@ -1,0 +1,20 @@
+.contact{
+	.contact-container{	
+		padding: 2em 0;
+		p, a{
+			color: $color-txt-invert;
+			margin-bottom: 1em;
+		}
+		#social{
+			list-style-type: none;
+			margin: 0;
+			li{
+				display: inline-block;
+				margin-right: 1em;
+				&:last-child{
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,115 @@
+/*
+@font-face {
+    font-family: 'asapbold';
+    src: url('../fonts/asap-bold-webfont.woff2') format('woff2'),
+         url('../fonts/asap-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'asapbold_italic';
+    src: url('../fonts/asap-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/asap-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'asapitalic';
+    src: url('../fonts/asap-italic-webfont.woff2') format('woff2'),
+         url('../fonts/asap-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'asapmedium';
+    src: url('../fonts/asap-medium-webfont.woff2') format('woff2'),
+         url('../fonts/asap-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'asapmedium_italic';
+    src: url('../fonts/asap-mediumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/asap-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'asapregular';
+    src: url('../fonts/asap-regular-webfont.woff2') format('woff2'),
+         url('../fonts/asap-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.asapbold {
+    font-family: 'asapbold';
+}
+
+.asapbold_italic {
+    font-family: 'asapbold_italic';
+}
+
+.asapitalic {
+    font-family: 'asapitalic';
+}
+
+.asapmedium {
+    font-family: 'asapmedium';
+}
+
+.asapmedium_italic {
+    font-family: 'asapmedium_italic';
+}
+
+.asapregular {
+    font-family: 'asapregular';
+}*/
+
+/* txt--align */
+
+
+@import url('https://fonts.googleapis.com/css?family=Asap');
+
+.asapregular {
+   font-family: 'Asap', sans-serif;
+}
+.asapbold {
+   font-family: 'Asap', sans-serif;
+   font-weight: bold;
+}
+
+
+
+
+.txt--align__left{
+    text-align: left;
+}
+
+.txt--align__center{
+    text-align: center;
+}
+
+.txt--align__right{
+    text-align: right;
+}
+
+/* txt__color */
+.txt--primary__color {
+    color: #ffffff;
+}
+
+.txt--secundary__color {
+    color: #000;
+}
+
+h1,h2,h3,h4,p,span{
+    position: relative;
+}
+

@@ -1,0 +1,78 @@
+.cards-collection {
+  @include clearfix;
+}
+
+.cards-collection__item {
+  @include span-columns(4 of 4);
+  @include omega;
+
+  margin-bottom: 24px;
+
+  @include media($tablet) {
+    @include span-columns(6 of 12);
+
+    &:nth-child(2n) {
+      @include omega;
+    }
+
+    &:nth-child(2n + 1) {
+      clear: both;
+    }
+  }
+
+  @include media($desktop) {
+    @include span-columns(4 of 12);
+
+    // Reset Tablet media-query margin removal
+    &:nth-child(2n) {
+      @include span-columns(4 of 12);
+    }
+
+    // Reset Tablet media-query float clearing
+    &:nth-child(2n + 1) {
+      clear: none;
+    }
+
+    &:nth-child(3n) {
+      @include omega;
+    }
+
+    &:nth-child(3n + 1) {
+      clear: both;
+    }
+  }
+}
+
+.cards-collection.cards-collection--with-carrousel {
+  padding-right: 0;
+  padding-left: 0;
+
+  @include media($desktop) {
+    padding-right: 12 * $gutter;
+    padding-left: 12 * $gutter;
+  }
+
+  @include media($large-desktop) {
+    padding-right: 24 * $gutter;
+    padding-left: 24 * $gutter;
+  }
+
+  .cards-collection__item {
+    @include span-columns(1 of 1);
+    clear: none;
+    margin-right: 0;
+
+    @include media($desktop) {
+      @include span-columns(4 of 12);
+      @include pad(0 2 * $gutter);
+
+      &:nth-child(3n) {
+        @include omega;
+      }
+
+      &:nth-child(3n + 1) {
+        clear: both;
+      }
+    }
+  }
+}

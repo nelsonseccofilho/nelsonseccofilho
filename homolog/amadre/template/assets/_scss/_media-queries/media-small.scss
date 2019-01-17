@@ -1,0 +1,95 @@
+// $small | 0, 640px
+@media only screen {  
+    //  component
+    @import "_components/mobilenavigation";
+    @import "_components/reel-video";
+    @import "_components/about";
+    @import "_components/clients";  
+    @import "_components/contact";    
+
+    body,
+    [canvas=container]{
+        background-color: transparent !important;
+    }
+    /* Define mobile styles */
+    * {
+        transition: all .4s ease;
+    }
+
+    .fullscreen-bg {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        z-index: -100;
+    }
+
+    .fullscreen-bg__video { 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: auto;
+        height: 100%;
+        transform: translate(-50%, -50%);
+    }
+    #container{
+        margin-top: -56px;
+    }
+    .row{        
+        &.home{
+            // padding-top: 57px;
+            video{
+                margin-bottom: -.5em;
+            }
+        }
+    }
+    .row{
+        &.home,
+        &.expanded{
+            overflow: hidden;
+        }
+    }
+
+    // .expanded {
+        .row {
+            .page-section {
+                background-color: transparent;
+                padding: 2.5em 0 2.5em;
+            }            
+            &.home {
+                background-color: #000;
+                .page-section {
+                    padding: 0;
+                }                
+            }
+            &.reel,
+            &.contact {
+                background: #00d0ec;
+                background: linear-gradient(-45deg, #1484a9 0%, #15ccec 100%);
+            }
+            &.cases {
+                background: #d7dbdc;
+                background: linear-gradient(-45deg, #d7dbdc 0%, #dae1e4 100%);
+            }
+            &.about {
+                background-color: transparent;
+            }
+            &.clients {
+                background-color: #fff;
+
+            }
+        }
+    // }
+    footer{
+        background-color: #fff;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+    .small {
+        display: none;
+    }
+}
