@@ -1,0 +1,113 @@
+<b>Nelson Secco Filho | UI, UX, Front-end</b>
+
+Empreendedor, paulistano, marido, ui, ux, front-end, guitarrista e palestrante voluntario.
+
+Skills
+Packege manager: npm
+Pre-processadores de css: Sass
+Uteis: GIT, node.js
+Libraries: React, Vue
+Frameworks: Angular, Ionic, Twitter Bootstrap, Material Design
+Metodologias: Scrum, Kanbam, LEAN, BEM
+Design: UI, UX, Adobe XD, Skeach, Figma, Adobe Photoshop, Web trends, DesignOps
+OS: Windows, Linux, OSX
+
+Top Skills: Desenvolvimento de front-end, usabilidade e mobile
+Idiomas: Ingles
+
+Trabalhos voluntarios
+Google Developers Group SJC - Organizador assistente fev 2018 - Atualmente 
+Sao Jose dos Campos e Regiao
+
+...
+
+Experiencia
+Nelx Digital Business | CEO Novembro 2015 - Atualmente
+Sao Jose dos Campos e Regiao, Brasil
+CONSULTORIA DE FULLSTACK DESIGN - De nada vale uma ideia sensacional se for dificil de usar, nos da Nelx Digital Business colocaremos voce no lugar certo.
+
+TINNOVA Inc | Front-end Developer Fevereiro 2017 - Dezembro 2018
+Sao Jose dos Campos, Sao Paulo
+Responsavel por desenvolver solucoes relacionadas ao front-end em aplicacoes reativas, trabalhando com windows/linux, microsoft vs code, axure, vanillla javascript, angular, vue.js, sass, git, ui, ux, scrum.
+Alocado na Embraer em Sao Jose dos Campos.
+
+A Madre Estudio Digital | Front-end Developer Setembro 2016 - Fevereiro 2017
+Sao Paulo, Brazil
+Trabalhei alocado na Youse Seguros, onde era responsavel pela producao e atualizacao das landing pages trabalhando com o Jekyll, SASS, GIT.
+
+Grupo KRS | Front-end Developer Junho 2016 - Setembro 2016
+Sao Paulo, Brazil
+UX, Bootstrap, JavaScript, Node.js, React.js, Angular, Ionic
+
+Slikland Creative Development | Front-end Developer Novembro 2015 - Marco 2016
+Sao Paulo, Brazil
+JavaScript Dev
+
+7 Ways Think & Create | Front-end Lead Developer Outubro 2015 - Novembro 2015
+Sao Paulo, Brazil
+HTML5, CSS3, JavaScript, Node.js, Angular, GIT E-commerce: VTEX/BSELLER Responsavel por todo o front-end, landins pages, emkt responsivos, sites institucionais, e e-commerces. Em parceria com o time de back-end ajudo a desenvolver as melhores mais robustas e elegantes solucoes.
+
+WROI | Front-end Lead Developer Agosto 2015 - Outubro 2015 
+Sao Paulo, Brazil
+HTML5, CSS3, JavaScript, Node.js, Angular, GIT E-commerce: VTEX/BSELLER Responsavel por todo o front-end, landins pages, emkt responsivos, sites institucionais, e e-commerces. Em parceria com o time de back-end ajudo a desenvolver as melhores mais robustas e elegantes solucoes.
+Atuei trabalhando como developer e tambem fiz algumas intervencoes em SEO.
+
+Digigroup Comunicacoo Development | Consultant Mobile Julho 2015 - Agosto 2015
+Sao Paulo, Brazil
+UX, HTML5, CSS3, JavaScript, Node.js, Angular
+
+Sorte Online Development | Consultant Mobile Junho 2015 - Julho 2015
+Sao Paulo, Brazil
+UX, JavaScript, Node.js, Angular, Ionic (iOS/Android), Cordova/Phonegap e IBM MOBILEFIRST
+
+Mobint - Front-end Lead Developer Novembro 2014 - Maio 2015
+Sao Paulo, Brazil
+Trabalhei como Lead Developer utilzando as seguintes linguagens JS/jQuery, Angular, NODEJs, CORDOVA/PhoneGap (iOS/Android) e em contra ponto tambem gerencio a equipe de desenvolvedores da Mobint. Organizando e distribuindo suas tarefas, cobrando resultados e adotanto de maneira modular alguns principios da metodologia agil.
+
+Monstra | Front-end Developer Agosto 2014 - Setembro 201 
+Sao Paulo, Brazil
+HTML5, CSS3, JavaScript, Node.js, Angular, GIT E-commerce: VTEX/BSELLER Responsavel por todo o front-end, landins pages, emkt responsivos, sites institucionais, e e-commerces. Em parceria com o time de back-end ajudo a desenvolver as melhores mais robustas e elegantes solucoes.
+Atuei trabalhando como developer e tambem fiz algumas intervencoes em SEO.
+
+Feras Brasil | Front-end Developer
+Julho 2013 - Janeiro 2014
+Sao Paulo, Brazil
+UI/UX, HTML5, CSS3, JS/jQuery ,SASS, Git, Cross-browser (IE9+, Chrome, Firefox, Safari)
+
+One Sky | Front-end Developer  Novembro 2012 - Abril 2013
+Sao Paulo, Brazil
+HTML5, CSS3, JavaScript, Node.js, Angular, GIT E-commerce: VTEX/BSELLER Responsavel por todo o front-end, landins pages, emkt responsivos, sites institucionais, e e-commerces. Em parceria com o time de back-end ajudo a desenvolver as melhores mais robustas e elegantes solucoes.
+Atuei trabalhando como developer e tambem fiz algumas intervencoes em SEO.
+
+Affen Estudio de Comunicacao | Front-end Developer Agosto 2012 - Setembro 2012
+Sao Paulo, Brazil
+HTML5, CSS3, Javascript and JQUERY, Cross-browser: (IE7, IE8, IE9, Chrome, Firefox), Mobile: iPad/iPhone.
+
+Graficos Burti | Front-end Developer Janeiro 2012 - Julho 2012
+Sao Paulo, Brazil
+HTML5, CSS3, Javascript and JQUERY, Cross-browser: (IE7, IE8, IE9, Chrome, Firefox), Mobile: iPad/iPhone.
+
+Dennova | Front-end Developer jr Dezembro 2010 - dezembro 2011
+Sao Paulo, Brazil
+HTML5/XHTML, CSS, Jquery, SVN, SEO. Cross-browser (IE6, IE7, IE8, Chrome, Firefox) e CAKEPHP.
+
+Brasilis Marketing | Front-end Developer jr Julho 2010 - Dezembro 2010
+Sao Paulo, Brazil
+Adobe Photoshop, Adobe Flash, Adobe Premier. HTML, CSS, Javascript, Jquery.  PHP frameworks: Joomla!, Wordpress e Elgg.
+
+NetBiis | Estagiario Front-end Março 2009 - Dezembro 2009
+Sao Paulo, Brazil
+HTML, CSS, Javascript, basic SQL / MySQL, PHP e C.
+
+Educacao
+Universidade Nove de Julho - Sistemas de Informacao (2011 - INCOMPLETO) 
+Colegio Poeta Mario Quintana - Processamento de dados (2001 - 2003)
+
+Certificacoes
+Flutter - Firebase - CRUD - Build 2 Apps super easy! - UDEMY
+JS com TDD na Pratica - UDEMY
+Flexbox: o guia completo - UDEMY
+Ubuntu Linux Pratico Mao na Massa - UDEMY
+Curso Completo de Android Material Design - UDEMY
+Ubuntu Linux Pratico Mao na Massa - UDEMY
+Certificacao PMP do PMI - Como funciona e para quem serve - UDEMY
